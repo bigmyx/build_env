@@ -1,0 +1,18 @@
+[ui]
+username = build <build@example.com>
+ssh = <%= node.build.ssh_cmd %> -i <%= node.build.home %>/.ssh/id_rsa
+
+[auth]
+repo.username = nope
+
+[extensions]
+mercurial_keyring =
+mq =
+eol =
+progress =
+
+[color]
+mode = win32
+
+[annotate]
+ignorews = 1
